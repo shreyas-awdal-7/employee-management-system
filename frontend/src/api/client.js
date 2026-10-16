@@ -31,7 +31,10 @@ api.interceptors.response.use(
 export const getErrorMessage = (err) => {
   const data = err.response?.data
   if (data?.errors) return Object.values(data.errors).join(', ')
-  return data?.message || 'Something went wrong'
+  if (data?.message) return data.message
+  // Network error, ya backend ki jagah koi HTML/404 page mila
+  if (!err.response || typeof data !== 'object') return 'Server is not reachable. Please try again later.'
+  return 'Something went wrong'
 }
 
 export const downloadFile = async (url, fallbackName) => {
