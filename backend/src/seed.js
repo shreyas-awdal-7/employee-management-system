@@ -122,10 +122,11 @@ const run = async () => {
   }
   console.log(`Created ${leaves.length} leave requests`)
 
-  // Attendance: last ~45 days, ~90% presence. Today: most people, but not Rahul (so demo can check in).
+  // Attendance: last ~80 days (covers the 2 payroll months), ~90% presence.
+  // Today: most people, but not Rahul (so demo can check in).
   const onLeaveToday = new Set([sneha._id.toString()])
   const records = []
-  for (let offset = -45; offset <= 0; offset++) {
+  for (let offset = -80; offset <= 0; offset++) {
     const day = addDays(today, offset)
     if (isWeekend(day)) continue
     const key = dateKeyOf(day)

@@ -5,6 +5,8 @@ A full-stack **MERN** HR platform to manage employees, departments, attendance, 
 > 👤 **Demo logins** (after `npm run seed`)
 > Admin `admin@ems.com` / `admin123` · Manager `manager@ems.com` / `manager123` · Employee `employee@ems.com` / `employee123`
 
+![Dashboard](docs/screenshots/dashboard.png)
+
 ---
 
 ## ✨ Features
@@ -48,6 +50,18 @@ A full-stack **MERN** HR platform to manage employees, departments, attendance, 
 - Deductions: PF (12% of basic), Professional Tax, Income Tax (TDS), pro-rata **unpaid leave** cut
 - Downloadable **PDF payslips** generated with PDFKit
 - Paid payslips are locked from recalculation
+
+---
+
+## 📸 Screenshots
+
+| Employees (manager view) | Team Attendance |
+|---|---|
+| ![Employees](docs/screenshots/employees.png) | ![Attendance](docs/screenshots/attendance.png) |
+
+| Leave Approvals | My Profile |
+|---|---|
+| ![Leaves](docs/screenshots/leaves.png) | ![Profile](docs/screenshots/profile.png) |
 
 ---
 
