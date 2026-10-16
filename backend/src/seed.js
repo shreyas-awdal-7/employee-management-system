@@ -19,7 +19,7 @@ const departmentsData = [
 ]
 
 const employeesData = [
-  { name: 'Anjali Mehta', email: 'admin@ems.com', password: 'admin123', role: 'admin', dept: 'Human Resources', designation: 'HR Director', salary: 150000, gender: 'female' },
+  { name: 'Shreyas Awdhal', email: 'admin@ems.com', password: 'admin123', role: 'admin', dept: 'Human Resources', designation: 'HR Director', salary: 150000, gender: 'male' },
   { name: 'Priya Sharma', email: 'manager@ems.com', password: 'manager123', role: 'manager', dept: 'Engineering', designation: 'Engineering Manager', salary: 180000, gender: 'female' },
   { name: 'Rahul Verma', email: 'employee@ems.com', password: 'employee123', role: 'employee', dept: 'Engineering', designation: 'Software Engineer', salary: 75000, gender: 'male' },
   { name: 'Amit Patel', email: 'amit.patel@ems.com', role: 'employee', dept: 'Engineering', designation: 'Senior Software Engineer', salary: 110000, gender: 'male' },

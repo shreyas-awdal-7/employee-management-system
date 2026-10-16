@@ -49,7 +49,7 @@ function DashboardPreview() {
             ))}
           </div>
           <div className="flex-1 space-y-3 p-4">
-            <p className="text-sm font-semibold">Good morning, Anjali 👋</p>
+            <p className="text-sm font-semibold">Good morning, Shreyas 👋</p>
             <div className="grid grid-cols-3 gap-2">
               {[
                 { icon: Users, label: 'Employees', value: '128', c: 'bg-indigo-50 text-indigo-600' },
