@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import { CalendarCheck, ShieldCheck, Users, Wallet } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
@@ -72,6 +72,7 @@ export default function Login() {
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-600 font-bold text-white">E</div>
             <span className="text-xl font-bold">EMS</span>
           </div>
+          <Link to="/" className="mb-6 inline-block text-sm text-slate-500 hover:text-indigo-600">← Back to home</Link>
           <h2 className="text-2xl font-bold text-slate-900">Sign in</h2>
           <p className="mt-1 text-sm text-slate-500">Welcome back! Please enter your details.</p>
 
